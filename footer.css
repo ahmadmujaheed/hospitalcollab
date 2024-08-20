@@ -1,0 +1,97 @@
+.footer {
+    background-color: rgb(144, 130, 250);
+    padding: 40px 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 150px;
+    margin: 20px 10px;
+}
+
+.footer-col h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-col ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    gap: 20px;
+
+}
+
+.footer-links a {
+
+
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    left: 20px;
+}
+
+
+
+/* .footer-links a:hover {
+    text-decoration: underline;
+} */
+
+.footer-social {
+    display: flex;
+    margin-right: 10px;
+    font-size: 20px;
+    color: black;
+    gap: 10px;
+
+}
+
+.soc {
+    width: 20px;
+
+}
+
+.footer-legal {
+    text-align: center;
+    border-top: 1px solid #white;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer-legal a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-legal a:hover {
+    text-decoration: underline;
+}
+
